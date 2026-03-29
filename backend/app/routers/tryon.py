@@ -107,7 +107,8 @@ async def process_tryon(
             if result_image_path and os.path.exists(result_image_path):
                 # Get just the filename for the URL
                 result_filename = os.path.basename(result_image_path)
-                job.result_image_url = f"/uploads/{result_filename}"
+                base = settings.backend_url.rstrip("/") if settings.backend_url else ""
+                job.result_image_url = f"{base}/uploads/{result_filename}"
                 job.status = "completed"
                 job.completed_at = time.time()
             else:

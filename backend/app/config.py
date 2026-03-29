@@ -21,6 +21,9 @@ class Settings(BaseSettings):
     max_upload_size: int = 10485760  # 10MB
     upload_dir: str = "uploads"
 
+    # Public backend URL (set in production for absolute image URLs)
+    backend_url: str = ""
+
     # Mock Mode
     mock_mode: bool = False
     mock_delay: int = 5
