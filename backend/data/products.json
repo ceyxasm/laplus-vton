@@ -10,16 +10,6 @@
     "colors": ["White"]
   },
   {
-    "id": "shirt-002",
-    "name": "Checkered Casual Shirt",
-    "category": "shirt",
-    "description": "Casual checkered shirt for weekend wear",
-    "price": 3499,
-    "image_url": "/products/shirt-2.jpg",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Multi"]
-  },
-  {
     "id": "dress-002",
     "name": "Black Evening Dress",
     "category": "dress",
@@ -60,16 +50,6 @@
     "colors": ["Blue"]
   },
   {
-    "id": "saree-001",
-    "name": "Silk Saree",
-    "category": "saree",
-    "description": "Traditional silk saree with elegant border",
-    "price": 12999,
-    "image_url": "/products/saree-1.jpg",
-    "sizes": ["One Size"],
-    "colors": ["Red", "Gold"]
-  },
-  {
     "id": "saree-002",
     "name": "Cotton Saree",
     "category": "saree",
@@ -88,16 +68,6 @@
     "image_url": "/products/kurta-1.jpg",
     "sizes": ["S", "M", "L", "XL"],
     "colors": ["White", "Cream"]
-  },
-  {
-    "id": "kurta-002",
-    "name": "Designer Kurta",
-    "category": "kurta",
-    "description": "Embroidered designer kurta for special occasions",
-    "price": 6499,
-    "image_url": "/products/kurta-2.jpg",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Blue", "Gold"]
   },
   {
     "id": "dress-003",

@@ -26,7 +26,7 @@ async def batch_tryon_experiment():
     project_root = Path(__file__).parent.parent
     input_image = project_root / "archive" / "input.png"
     products_json = project_root / "backend" / "data" / "products.json"
-    products_dir = project_root / "frontend" / "public" / "products"
+    products_dir = project_root / "backend" / "data" / "images"
 
     # Create results directory
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
