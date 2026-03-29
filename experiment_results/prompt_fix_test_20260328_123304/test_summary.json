@@ -1,0 +1,63 @@
+{
+  "test": "Prompt Engineering Fix Verification",
+  "timestamp": "20260328_123304",
+  "input_image": "/Users/ceyx/code/vton/V1/archive/input.png",
+  "total_tested": 6,
+  "problematic_products": [
+    "shirt-002",
+    "dress-001",
+    "kurta-002"
+  ],
+  "successful": 6,
+  "failed": 0,
+  "results": [
+    {
+      "product_id": "shirt-002",
+      "product_name": "Checkered Casual Shirt",
+      "category": "shirt",
+      "is_problematic": true,
+      "status": "success",
+      "output_file": "01_FIXED_shirt-002_shirt.jpg"
+    },
+    {
+      "product_id": "dress-001",
+      "product_name": "Floral Summer Dress",
+      "category": "dress",
+      "is_problematic": true,
+      "status": "success",
+      "output_file": "02_FIXED_dress-001_dress.jpg"
+    },
+    {
+      "product_id": "kurta-002",
+      "product_name": "Designer Kurta",
+      "category": "kurta",
+      "is_problematic": true,
+      "status": "success",
+      "output_file": "03_FIXED_kurta-002_kurta.jpg"
+    },
+    {
+      "product_id": "shirt-001",
+      "product_name": "Classic White Shirt",
+      "category": "shirt",
+      "is_problematic": false,
+      "status": "success",
+      "output_file": "04_shirt-001_shirt.jpg"
+    },
+    {
+      "product_id": "saree-002",
+      "product_name": "Cotton Saree",
+      "category": "saree",
+      "is_problematic": false,
+      "status": "success",
+      "output_file": "05_saree-002_saree.jpg"
+    },
+    {
+      "product_id": "kurta-001",
+      "product_name": "Cotton Kurta",
+      "category": "kurta",
+      "is_problematic": false,
+      "status": "success",
+      "output_file": "06_kurta-001_kurta.jpg"
+    }
+  ]
+}

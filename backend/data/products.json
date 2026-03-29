@@ -1,0 +1,112 @@
+[
+  {
+    "id": "shirt-001",
+    "name": "Classic White Shirt",
+    "category": "shirt",
+    "description": "Timeless white cotton shirt, perfect for any occasion",
+    "price": 3999,
+    "image_url": "/products/shirt-1.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["White"]
+  },
+  {
+    "id": "shirt-002",
+    "name": "Checkered Casual Shirt",
+    "category": "shirt",
+    "description": "Casual checkered shirt for weekend wear",
+    "price": 3499,
+    "image_url": "/products/shirt-2.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Multi"]
+  },
+  {
+    "id": "dress-002",
+    "name": "Black Evening Dress",
+    "category": "dress",
+    "description": "Elegant black dress for special occasions",
+    "price": 10999,
+    "image_url": "/products/dress-2.jpg",
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["Black"]
+  },
+  {
+    "id": "jacket-001",
+    "name": "Brown Leather Jacket",
+    "category": "jacket",
+    "description": "Premium brown leather jacket with classic style",
+    "price": 16999,
+    "image_url": "/products/jacket-1.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Brown"]
+  },
+  {
+    "id": "jacket-002",
+    "name": "Bomber Jacket",
+    "category": "jacket",
+    "description": "Sporty bomber jacket with zipper",
+    "price": 8999,
+    "image_url": "/products/jacket-2.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Green", "Black"]
+  },
+  {
+    "id": "jacket-003",
+    "name": "Denim Jacket",
+    "category": "jacket",
+    "description": "Classic denim jacket with modern fit",
+    "price": 7499,
+    "image_url": "/products/jacket-3.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Blue"]
+  },
+  {
+    "id": "saree-001",
+    "name": "Silk Saree",
+    "category": "saree",
+    "description": "Traditional silk saree with elegant border",
+    "price": 12999,
+    "image_url": "/products/saree-1.jpg",
+    "sizes": ["One Size"],
+    "colors": ["Red", "Gold"]
+  },
+  {
+    "id": "saree-002",
+    "name": "Cotton Saree",
+    "category": "saree",
+    "description": "Comfortable cotton saree for daily wear",
+    "price": 7499,
+    "image_url": "/products/saree-2.jpg",
+    "sizes": ["One Size"],
+    "colors": ["Blue", "White"]
+  },
+  {
+    "id": "kurta-001",
+    "name": "Cotton Kurta",
+    "category": "kurta",
+    "description": "Comfortable cotton kurta for men",
+    "price": 2999,
+    "image_url": "/products/kurta-1.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["White", "Cream"]
+  },
+  {
+    "id": "kurta-002",
+    "name": "Designer Kurta",
+    "category": "kurta",
+    "description": "Embroidered designer kurta for special occasions",
+    "price": 6499,
+    "image_url": "/products/kurta-2.jpg",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Blue", "Gold"]
+  },
+  {
+    "id": "dress-003",
+    "name": "Midi Wrap Dress",
+    "category": "dress",
+    "description": "Versatile wrap dress in solid colors",
+    "price": 7499,
+    "image_url": "/products/dress-3.jpg",
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["Navy", "Red"]
+  }
+]
