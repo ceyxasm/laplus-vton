@@ -1,5 +1,4 @@
 from pydantic_settings import BaseSettings, SettingsConfigDict
-from pydantic import Field
 from typing import List
 import os
 
@@ -7,8 +6,8 @@ import os
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", case_sensitive=False, extra="ignore")
 
-    # API Keys - read directly from env as fallback
-    gemini_api_key: str = Field(default_factory=lambda: os.environ.get("GEMINI_API_KEY", ""))
+    # API Keys
+    gemini_api_key: str = ""
 
     # Server
     host: str = "0.0.0.0"
