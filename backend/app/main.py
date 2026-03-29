@@ -41,14 +41,10 @@ async def root():
 
 @app.get("/health")
 async def health():
-    import os
-    raw = os.environ.get("GEMINI_API_KEY", "")
-    env_keys = [k for k in os.environ.keys() if "GEMINI" in k.upper() or "API" in k.upper()]
     return {
         "status": "healthy",
-        "gemini_configured": bool(settings.gemini_api_key),
-        "raw_key_set": bool(raw),
-        "matching_env_keys": env_keys
+        "mock_mode": settings.mock_mode,
+        "gemini_configured": bool(settings.gemini_api_key)
     }
 
 
