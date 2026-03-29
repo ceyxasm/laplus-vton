@@ -126,7 +126,8 @@ class GeminiService:
         self,
         person_image_path: str,
         garment_image_path: str,
-        custom_prompt: Optional[str] = None
+        custom_prompt: Optional[str] = None,
+        job_id: Optional[str] = None,
     ) -> dict:
         if not self.model:
             return {"status": "error", "message": "Gemini API key not configured", "error": "API_KEY_MISSING"}
@@ -143,8 +144,8 @@ class GeminiService:
             person_size = os.path.getsize(person_image_path)
             garment_size = os.path.getsize(garment_image_path)
 
-            result_filename = os.path.basename(person_image_path).replace('_person', '_result')
-            result_path = os.path.join(settings.upload_dir, result_filename)
+            base = job_id if job_id else os.path.basename(person_image_path).replace('_person', '')
+            result_path = os.path.join(settings.upload_dir, f"{base}_result.jpg")
             last_image_data: Optional[bytes] = None
 
             for prompt in prompts:

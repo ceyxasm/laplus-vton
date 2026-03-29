@@ -97,7 +97,8 @@ async def process_tryon(
         result = await gemini_service.generate_tryon(
             person_image_path=person_image_path,
             garment_image_path=garment_image_path,
-            custom_prompt=custom_prompt
+            custom_prompt=custom_prompt,
+            job_id=job_id,
         )
 
         if result["status"] == "success":
