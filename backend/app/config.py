@@ -1,9 +1,11 @@
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 from typing import List
 import os
 
 
 class Settings(BaseSettings):
+    model_config = SettingsConfigDict(env_file=".env", case_sensitive=False, extra="ignore")
+
     # API Keys
     gemini_api_key: str = ""
 
@@ -22,10 +24,6 @@ class Settings(BaseSettings):
     # Mock Mode
     mock_mode: bool = False
     mock_delay: int = 5
-
-    class Config:
-        env_file = ".env"
-        case_sensitive = False
 
     @property
     def cors_origins_list(self) -> List[str]:
